@@ -11,8 +11,8 @@ We use "Incremental Life Cycle Model" along with Cross-Platform Development (Por
 Project Priorities and Assumptions: 
 =================================== 
 1) Low Latency, High Performance all the time. 
-2) Wherever choice has to be made between memory and execution speed, we give preference to speed. 3) Every module 
-   devloped will be exhaustively tested.   
+2) Wherever choice has to be made between memory and execution speed, we give preference to speed. 
+3) Every module devloped will be exhaustively tested.   
 
 
 How the work Proceed: 
@@ -21,14 +21,14 @@ Before the beginning of any new project, we should know the "PROBLEM STATEMENT",
 
 	"Problem Statement"   
 	-------------------   
-	To Build a high performance, low latency, end to end Trading Platform for Indian Stock Market but not limited to which   home users should be able use for trading which guarantees (99% of the times) the profit but does not guarantees 
-	maximized profit for intraday trading.  
+	To Build a high performance, low latency, end to end Trading Platform for Indian Stock Market but not limited to        which home users should be able use for trading which guarantees (99% of the times) the profit but does not 
+	guarantees maximized profit for intraday trading.  
     
 	First Step:   
 	-----------   
 	To provide the optimal solution to any problem is "UNDERSTAING THE PROBLEM".   
-	To understand the above problem statement you need to really extract the explicit and implcit requirements from the 
-	statement. Here is the List of requirements:  
+	To understand the above problem statement you need to really extract the explicit and implcit requirements from 
+	the statement. Here is the List of requirements:  
 	
 		Explicit:         
 		---------               
@@ -36,7 +36,7 @@ Before the beginning of any new project, we should know the "PROBLEM STATEMENT",
 			2)  Low-Latency               
 			3)  End-to-End Trading Platform               
 			4)  Focus on Indian Stock Market but not limited to it.               
-			5)  Guarantees (99% of the times) the profit but does not guarantees maximized profit.               
+			5)  Guarantees (99% of the times) the profit but does not guarantees maximized profit.
 			6)  Only for Intraday Trading.                        
 		Implicit:         
 		---------               
@@ -48,15 +48,13 @@ Before the beginning of any new project, we should know the "PROBLEM STATEMENT",
 
 	Second Step:   
 	------------   
-	To understand the above Explicit/Implicit requirements, you should have the "KNOWLEDGE OF VARIOUS TECHNOLOGIES" and 
-	indepth undertstanding of the "PROBLEM DOMAIN" i.e. Stock Market. Once this is achieved we need to architect the 
-	solution in terms of Software and Hardware nodes and their integration.      
+	To understand the above Explicit/Implicit requirements, you should have the "KNOWLEDGE OF VARIOUS TECHNOLOGIES" 
+	and indepth undertstanding of the "PROBLEM DOMAIN" i.e. Stock Market. Once this is achieved we need to architect        the solution in terms of Software and Hardware nodes and their integration.      
 
 	Third Step:   
 	-----------   
 	To solve the problem statement, the above requirements should be "DECOMPOSED IN MODULES" and map to them with 
-	technolgoies/software/hardware used. Below is the list of modules we are 
-	able to identify:              
+	technolgoies/software/hardware used. Below is the list of modules we are able to identify:              
 
 		Modules Included:       
 		-----------------         
@@ -80,14 +78,14 @@ Before the beginning of any new project, we should know the "PROBLEM STATEMENT",
 		------------------
 		   Software:        
 		   ---------     
-				We always use freeware, Open Source Softwares or APIs which are the part of GPL, LGPL.xx licence.         
-				Any special requirement for building/using the modules will be detailed in specific module.                
+				We always use freeware, Open Source Softwares or APIs which are the part of GPL, LGPL.xx licence. Any special 
+				requirement for building/using the modules will be detailed in specific module.                
 		
 				For development, we generally use: 
 				----------------------------------        
-					Windows-7 for Operating System but any other OS ca be used. Our Code is Platform Indepandant.        
+					Windows-7 for Operating System but any other OS ca be used. Our Code is Platform Indepandant.  
 					Visual Studio 2013 in built compiler for build                    
-								              or         
+																		or 
 					Intel@ Compilers which can be easily integrated with Visual Studio IDE.  
 					
 				For real time, we generally use:
@@ -107,7 +105,7 @@ Before the beginning of any new project, we should know the "PROBLEM STATEMENT",
 
 			Programming Languages and other Technologies:        
 			---------------------------------------------        
-			  C, C++99/c++11, Lua, ZeroMq, nanodbc, Lock-Free Data Structures, Intel TBB, Boost, Google Protobuf, MySql,   
+			  C, C++99/c++11, Lua, ZeroMq, nanodbc, Lock-Free Data Structures, Intel TBB, Boost, Google Protobuf, MySql, 
 			  Python.           
 
 	Fourth Step:   
@@ -120,12 +118,13 @@ Before the beginning of any new project, we should know the "PROBLEM STATEMENT",
 
 	Sixth Step:   
 	------------   
-	We deploy the delivered software on various hardware nodes as per the deployment architecture and integrate them.      
+	We deploy the delivered software on various hardware nodes as per the deployment architecture and integrate the.      
 
 	Seventh Step:   
 	------------   
-	Observe the behaviour of deployed software on live traffic and cut two branches at this level : 
-	1st branch continue to do incremental development and 
+	Observe the behaviour of deployed software on live traffic and cut two branches at this level: 
+	1st branch continue to do incremental development 
+	and 
 	2nd branch fix the issues reported which can be later merged with 1st branch for another release.      
 
 
